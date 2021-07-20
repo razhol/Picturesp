@@ -7,32 +7,82 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+img{
+  height: 450px;
+  width: 890px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+ button{
+  border: 2px solid white;
+  border-radius: 35px !important;
+  padding: 20px 25px !important;
+  margin: 20px 20px !important;
+  background-color: #475ae2;
+  display: inline-table;
   color: white;
+  font-family: serif;
+  font-weight: bold;
+  height: 60px;
+  width: 185px;
+} 
+
+button:hover{
+  background-color: white;
+  color: #475ae2;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+#div1{
+  display: inline-table !important;
+  background: linear-gradient(175deg, rgb(71, 90, 226) 50% 10%, transparent 30%);
+  align-items: center;
+  width: 100vw;
+  height: 80vh;
+  flex-direction: column;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.carousel-inner {
+ margin-top: 60px;
 }
+
+
+h1{
+  margin: 40px;
+  font-family: Georgia;
+  color:white;
+  font-size: 50px !important;
+  text-align:center;
+}
+
+ 
+
+span{
+ background-color: #d1d6f8;
+ border-radius: 45px !important;
+}
+
+.carousel-control-prev-icon{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23475ae2' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+  width: 77px !important;
+  height: 77px !important;
+}
+
+
+.carousel-control-next-icon{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23475ae2' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+  width: 77px !important;
+  height: 77px !important;
+}
+
+
+p {
+  padding-right: 50%;
+  color: #7f90f0;
+}
+
+
+
+
